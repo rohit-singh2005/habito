@@ -35,7 +35,3 @@ Habito is an Android application designed to help users find and book accommodat
 - Material Design Components
 - CircleImageView
 - Google Maps Services
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
