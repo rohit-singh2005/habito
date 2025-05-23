@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" />  <!-- Disabled state color -->
+            <corners android:radius="32dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#3A52FF"
+                android:endColor="#25D4FC"
+                android:angle="270" />
+            <corners android:radius="32dp" />
+        </shape>
+    </item>
+</selector>

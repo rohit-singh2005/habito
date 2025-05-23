@@ -1,0 +1,5 @@
+<!-- rounded_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F0F9FF" />
+    <corners android:radius="8dp" />
+</shape>

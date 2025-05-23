@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rooms_any"
+        android:title="Any Rooms" />
+    <item
+        android:id="@+id/rooms_1"
+        android:title="1 Room" />
+    <item
+        android:id="@+id/rooms_2"
+        android:title="2 Rooms" />
+    <item
+        android:id="@+id/rooms_3_plus"
+        android:title="3+ Rooms" />
+</menu>

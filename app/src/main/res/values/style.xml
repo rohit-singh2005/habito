@@ -1,0 +1,25 @@
+<!-- Inside res/values/styles.xml -->
+<resources>
+    <!-- Add this at the top inside <resources> -->
+    <style name="AppTheme" parent="Theme.Habito" />
+
+    <!-- Your existing theme(s) -->
+
+    <!-- Custom button style to override Material tinting -->
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="backgroundTint">@null</item>  <!-- Disables default tint -->
+        <item name="android:textColor">@android:color/white</item>  <!-- Optional: Set text color -->
+        <item name="android:textSize">14sp</item>  <!-- Optional: Set text size -->
+    </style>
+
+    <style name="AppTheme.BottomNavStyle">
+        <item name="android:background">@android:color/white</item> <!-- Set background to white -->
+        <item name="android:textStyle">normal</item> <!-- Make text NOT bold -->
+    </style>
+
+    <style name="SwitchCompatTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#24C4FC</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/price_low_to_high"
+        android:title="Price: Low to High" />
+    <item
+        android:id="@+id/price_high_to_low"
+        android:title="Price: High to Low" />
+    <item
+        android:id="@+id/price_range_1"
+        android:title="₹0 - ₹2000" />
+    <item
+        android:id="@+id/price_range_2"
+        android:title="₹2000 - ₹5000" />
+</menu>
